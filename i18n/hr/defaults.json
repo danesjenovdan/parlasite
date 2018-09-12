@@ -1,5 +1,6 @@
 {
   "landing": {
+    "title": "Parlameter",
     "lead": "Parlametar je alat koji, pomoću analize glasanja i transkripata zastupničkih nastupa, olakšava praćenje rada Hrvatskog sabora.",
     "search": {
       "part_one": "Traži",
@@ -110,50 +111,35 @@
     "business_success_message": "poruka",
     "business_success_send": "POŠALJI"
   },
-  "tools": [
-    {
-      "id": "obvestila",
-      "label": "Parlametar obavijesti",
-      "link": "https://obvestila.parlameter.si/",
-      "text": "Isječci sa sjednica Sabora! Primite obavijest na mail svaki puta kad netko u Saboru izgovori riječ (ili više njih) koje ste odabrali.",
-      "icon": "obvestila"
+  "tools": {
+    "notifications": {
+      "title": "Parlameter obvestila",
+      "text": "Kliping iz parlamentarnih sej! Prejmi obvestilo na mail kadar koli kdo v Državnem zboru izreče izbrano besedo (ali več)."
     },
-    {
-      "id": "primerjalnik-glasovanj",
-      "label": "Komparator glasanja",
-      "link": "/orodja/primerjalnik-glasovanj",
-      "text": "Komparator glasanja odgovara na pitanja poput: Kada su zastupnici SDP-a glasali isto kao i zastupnici HDZ-a?",
-      "icon": "primerjalnik-glasovanj"
+    "voteComparator": {
+      "title": "Primerjalnik glasovanj",
+      "text": "S primerjalnikom glasovanj lahko odgovoriš na vprašanja kot je: Kdaj so poslanci Levice glasovali enako kot poslanci SDS?"
     },
-    {
-      "id": "raziskovalec-neenotnosti",
-      "label": "Pretraživač razjedinjenosti",
-      "link": "/orodja/raziskovalec-neenotnosti",
-      "text": "Istražite nesložnosti unutar klubova zastupnica s obzirom na to koliko je unutar kluba bilo neslaganja u glasanju.",
-      "icon": "raziskovalec-neenotnosti"
+    "discord": {
+      "title": "Raziskovalec neenotnosti",
+      "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
     },
-    {
-      "id": "parlamentarni-kompas",
-      "label": "Saborski kompas",
-      "link": "/orodja/parlamentarni-kompas",
-      "text": "Vizualizacija svih zastupnica u virtualnom 'prostoru'. Što je veća udaljenost među zastupnicama, veće su razlike u njihovom glasanju.",
-      "icon": "parlamentarni-kompas"
+    "compass": {
+      "title": "Parlamentarni kompas",
+      "text": "Vizualizacija vseh poslank in poslancev v virtualnem \"prostoru\". Dlje ko sta poslanca narazen, bolj različno glasujeta."
     },
-    {
-      "id": "skupine-besed",
-      "label": "Grupe riječi",
-      "link": "/orodja/skupine-besed",
-      "text": "Istražite tko najviše govori o određenoj temi, ili tko među zastupnicama najčešće koristi određene grupe riječi.<br><br>",
-      "icon": "skupine-besed"
+    "wordGroups": {
+      "title": "Skupine besed",
+      "text": "Razišči, kdo največ govori o določenih tematikah oziroma kdo največkrat izgovori določene skupine besed.<br><br>"
     }
-  ],
+  },
   "general": {
     "coalition": "koalicija",
     "opposition": "opozicija",
     "inactive": "NEAKTIVNA",
-    "overview": "pregled",
-    "voting": "glasanja",
-    "speeches": "govori",
+    "overview": "Pregled",
+    "voting": "Glasovanja",
+    "speeches": "Govori",
     "data_published": "objavljeni podaci",
     "in_review": "u pregledu",
     "vote-result--enacted": "Donesen",
@@ -178,5 +164,14 @@
     "facebook": "https://www.facebook.com/parlameter",
     "twitter": "https://twitter.com/Parlameter_si",
     "instagram": "https://instagram.com/Parlameter_si"
+  },
+  "titles": {
+    "session": "Seja",
+    "legislation": "Zakonodaja",
+    "other-votings": "Druga glasovanja",
+    "transcript": "Transkript",
+    "voting": "Glasovanje",
+    "session-list": "Seznam sej",
+    "sessions-search": "Išči seje"
   }
 }
