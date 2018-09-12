@@ -1,6 +1,6 @@
 {
   "landing": {
-    "title": "Parlameter",
+    "title": "Parlametar",
     "lead": "Parlametar je alat koji, pomoću analize glasanja i transkripata zastupničkih nastupa, olakšava praćenje rada Hrvatskog sabora.",
     "search": {
       "part_one": "Traži",
@@ -113,24 +113,24 @@
   },
   "tools": {
     "notifications": {
-      "title": "Parlameter obvestila",
-      "text": "Kliping iz parlamentarnih sej! Prejmi obvestilo na mail kadar koli kdo v Državnem zboru izreče izbrano besedo (ali več)."
+      "title": "Parlametar obavijesti",
+      "text": "Isječci sa sjednica Sabora! Primite obavijest na mail svaki puta kad netko u Saboru izgovori riječ (ili više njih) koje ste odabrali."
     },
     "voteComparator": {
-      "title": "Primerjalnik glasovanj",
-      "text": "S primerjalnikom glasovanj lahko odgovoriš na vprašanja kot je: Kdaj so poslanci Levice glasovali enako kot poslanci SDS?"
+      "title": "Komparator glasanja",
+      "text": "Komparator glasanja odgovara na pitanja poput: Kada su zastupnici SDP-a glasali isto kao i zastupnici HDZ-a?"
     },
     "discord": {
-      "title": "Raziskovalec neenotnosti",
-      "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
+      "title": "Pretraživač razjedinjenosti",
+      "text": "Istražite nesložnosti unutar klubova zastupnica s obzirom na to koliko je unutar kluba bilo neslaganja u glasanju."
     },
     "compass": {
-      "title": "Parlamentarni kompas",
-      "text": "Vizualizacija vseh poslank in poslancev v virtualnem \"prostoru\". Dlje ko sta poslanca narazen, bolj različno glasujeta."
+      "title": "Saborski kompas",
+      "text": "Vizualizacija svih zastupnica u virtualnom 'prostoru'. Što je veća udaljenost među zastupnicama, veće su razlike u njihovom glasanju."
     },
     "wordGroups": {
-      "title": "Skupine besed",
-      "text": "Razišči, kdo največ govori o določenih tematikah oziroma kdo največkrat izgovori določene skupine besed.<br><br>"
+      "title": "Grupe riječi",
+      "text": "Istražite tko najviše govori o određenoj temi, ili tko među zastupnicama najčešće koristi određene grupe riječi.<br><br>"
     }
   },
   "general": {
@@ -138,7 +138,7 @@
     "opposition": "opozicija",
     "inactive": "NEAKTIVNA",
     "overview": "Pregled",
-    "voting": "Glasovanja",
+    "voting": "Glasanja",
     "speeches": "Govori",
     "data_published": "objavljeni podaci",
     "in_review": "u pregledu",
@@ -166,12 +166,12 @@
     "instagram": "https://instagram.com/Parlameter_si"
   },
   "titles": {
-    "session": "Seja",
-    "legislation": "Zakonodaja",
-    "other-votings": "Druga glasovanja",
+    "session": "Sjednica",
+    "legislation": "Zakonodavstvo",
+    "other-votings": "Glasanja",
     "transcript": "Transkript",
-    "voting": "Glasovanje",
-    "session-list": "Seznam sej",
+    "voting": "Glasanje",
+    "session-list": "Popis sjednica",
     "sessions-search": "Išči seje"
   }
 }
