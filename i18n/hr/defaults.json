@@ -112,7 +112,8 @@
     "business_success": "Pojedinosti je najlakše dogovoriti e-mailom.",
     "business_success_email": "e-mail",
     "business_success_message": "poruka",
-    "business_success_send": "POŠALJI"
+    "business_success_send": "POŠALJI",
+    "thank_you": "HVALA!"
   },
   "tools": {
     "notifications": {
@@ -175,6 +176,7 @@
     "transcript": "Transkript",
     "voting": "Glasanje",
     "session-list": "Popis sjednica",
-    "sessions-search": "Traži sjednice"
+    "sessions-search": "Traži sjednice",
+    "thank-you": "Hvala!"
   }
 }
