@@ -123,14 +123,14 @@
   "tools": {
     "notifications": {
       "title": "Parlameter obvestila",
-      "text": "Kliping iz parlamentarnih sej! Prejmi obvestilo na mail kadar koli kdo v Državnem zboru izreče izbrano besedo (ali več)."
+      "text": "Parliamentary clipping! Get an email alert every time someone says a word (or more words)."
     },
     "voteComparator": {
-      "title": "Primerjalnik glasovanj",
-      "text": "S primerjalnikom glasovanj lahko odgovoriš na vprašanja kot je: Kdaj so poslanci Levice glasovali enako kot poslanci SDS?"
+      "title": "Vote comparator",
+      "text": "The vote comparator allows you to answer questions such as: When did members of one party vote the same as member of their biggest rival party?"
     },
     "discord": {
-      "title": "Raziskovalec neenotnosti",
+      "title": "Discord analysis",
       "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
     },
     "compass": {
