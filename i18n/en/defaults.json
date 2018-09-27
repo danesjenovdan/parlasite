@@ -93,14 +93,14 @@
         "example_excluded_result_text": "Poslanska služba"
       },
       {
-        "name": "- (MINUS)",
+        "name": "-(MINUS)",
         "description": "the results will not include the words preceded by the minus sign",
         "example_title": "Example:",
-        "example_text": "-Poslanska skupina",
+        "example_text": "-Parliamentary group",
         "example_result_title": "Results:",
-        "example_result_text": "skupina poslancev,<br> mednarodna skupina",
+        "example_result_text": "group of MPs,<br> international group",
         "example_excluded_result_title": "Not a result:",
-        "example_excluded_result_text": "Poslanska skupina"
+        "example_excluded_result_text": "Parliamentary group"
       }
     ]
   },
@@ -113,12 +113,12 @@
     "business_success_email": "email",
     "business_success_message": "message",
     "business_success_send": "SEND",
-    "thank_you": "HVALA!",
-    "error": "Ups, nekaj je šlo narobe. :(",
-    "choice": "DONACIJA PO IZBIRI",
-    "amount": "količina",
-    "card": "S KARTICO",
-    "monthly": "mesečna donacija"
+    "thank_you": "THANK YOU!",
+    "error": "Oops, something went wrong. :(",
+    "choice": "DONATION OF CHOICE",
+    "amount": "amount",
+    "card": "WITH A CREDIT CARD",
+    "monthly": "monthly donation"
   },
   "tools": {
     "notifications": {
@@ -166,7 +166,7 @@
     "state_one_dz": "Sorry, no voting at this session yet.",
     "state_five": "Sorry, no transcripts for this session yet.",
     "tools_intro": "Democracy is a continuous process that depends on our participation in it. Use the tools below to help you better engage with it!",
-    "page-not-found-text": "Tukaj ni ničesar. Kaj pa iščeš?",
+    "page-not-found-text": "There's nothing here. What are you looking for?",
     "info_email": "info@parlameter.si"
   },
   "social": {
@@ -175,14 +175,14 @@
     "instagram": "[empty]"
   },
   "titles": {
-    "session": "Seja",
+    "session": "Session",
     "legislation": "Legislation",
     "other-votings": "Other voting events",
-    "transcript": "Transkript",
-    "voting": "Glasovanje",
-    "session-list": "Seznam sej",
-    "sessions-search": "Išči seje",
-    "thank-you": "Hvala!",
+    "transcript": "Transcript",
+    "voting": "The vote",
+    "session-list": "List of sessions",
+    "sessions-search": "Search sessions",
+    "thank-you": "Thank you!",
     "ups": ":("
   }
 }
