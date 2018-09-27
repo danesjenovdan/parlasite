@@ -1,14 +1,14 @@
 {
   "landing": {
     "title": "Parlameter",
-    "lead": "Parlameter analyses votings and speeches in the parliament to help you monitor your politicians.",
+    "lead": "Parlameter analyses voting and speeches in the parliament to help you monitor your politicians.",
     "search": {
       "part_one": "Search",
-      "part_two": "legislation, votings, representatives, parties or their speeches"
+      "part_two": "legislation, voting, representatives, parties or their speeches"
     }
   },
   "about": {
-    "lead": "Parlameter analyses votings and speeches in the parliament to help you monitor your politicians.",
+    "lead": "Parlameter analyses voting and speeches in the parliament to help you monitor your politicians.",
     "afterlead": "User friendly visual design and technologically advanced modular setup increase the transparency of the most important democratic institution.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
@@ -63,10 +63,10 @@
     "second_paragraph": "If you want to modify your search query you can use the following operators:",
     "operators": [
       {
-        "name": "IN",
+        "name": "AND",
         "description": "the engine will return only those results that include all the words in the query (regardless of their order)",
         "example_title": "Example:",
-        "example_text": "Ivan IN Cankar",
+        "example_text": "Ivan AND Cankar",
         "example_result_title": "Results:",
         "example_result_text": "Ivan Cankar<br> Cankar, Ivan",
         "example_excluded_result_title": "",
@@ -76,7 +76,7 @@
         "name": "\"QUOTATIONS MARKS\"",
         "description": "the engine will return only the results that contain an exact match between the double quotes",
         "example_title": "Example:",
-        "example_text": "Humanitarna kriza",
+        "example_text": "Humanitarian crisis",
         "example_result_title": "",
         "example_result_text": "",
         "example_excluded_result_title": "",
@@ -86,10 +86,10 @@
         "name": "! (EXCLAMATION POINT)",
         "description": "results will always include the words marked with an exclamation point, while other words serve to rank the results",
         "example_title": "Example:",
-        "example_text": "Poslanska !skupina",
+        "example_text": "Parliamentary !group",
         "example_result_title": "Results:",
-        "example_result_text": "Poslanska skupina,<br> skupina poslancev,<br> mednarodna skupina",
-        "example_excluded_result_title": "Ni rezultat iskanja",
+        "example_result_text": "Parliamentary group,<br> group of MPs,<br> international group",
+        "example_excluded_result_title": "No search results found",
         "example_excluded_result_text": "Poslanska služba"
       },
       {
@@ -159,11 +159,11 @@
     "vote-result--received": "Received",
     "vote-result--in_procedure": "In procedure",
     "legislation": "legislation",
-    "other_votings": "other votings",
+    "other_votings": "other voting events",
     "transcripts": "transcripts",
     "state_one": "The national assembly of the republic of Slovenia doesn't publish voting records from committees.",
     "state_two": "The national assembly of the republic of Slovenia doesn't publish voting records from the assembly's president's collegium.",
-    "state_one_dz": "Sorry, no votings at this session yet.",
+    "state_one_dz": "Sorry, no voting at this session yet.",
     "state_five": "Sorry, no transcripts for this session yet.",
     "tools_intro": "Democracy is a continuous process that depends on our participation in it. Use the tools below to help you better engage with it!",
     "page-not-found-text": "Tukaj ni ničesar. Kaj pa iščeš?",
