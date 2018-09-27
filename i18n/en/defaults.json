@@ -122,7 +122,7 @@
   },
   "tools": {
     "notifications": {
-      "title": "Parlameter obvestila",
+      "title": "Parlameter notifications",
       "text": "Parliamentary clipping! Get an email alert every time someone says a word (or more words)."
     },
     "voteComparator": {
@@ -131,15 +131,15 @@
     },
     "discord": {
       "title": "Discord analysis",
-      "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
+      "text": "Explore the discord within parliamentary parties based on how much they disagreed on specific pieces of legislation."
     },
     "compass": {
-      "title": "Parlamentarni kompas",
-      "text": "Vizualizacija vseh poslank in poslancev v virtualnem \"prostoru\". Dlje ko sta poslanca narazen, bolj različno glasujeta."
+      "title": "Parliamentary compass",
+      "text": "Visualisation of all MPs in a \"virtual space\". The further apart two MPs are the greater the discord in their voting patterns."
     },
     "wordGroups": {
-      "title": "Skupine besed",
-      "text": "Razišči, kdo največ govori o določenih tematikah oziroma kdo največkrat izgovori določene skupine besed.<br><br>"
+      "title": "Word groups",
+      "text": "Explore who talks most about certain topics or uses certain word groups most often.<br><br>"
     }
   },
   "general": {
