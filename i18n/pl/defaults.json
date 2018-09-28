@@ -94,7 +94,7 @@
       },
       {
         "name": "-(MINUS)",
-        "description": "wyniki wyszukiwania wykluczają trafienia poszczególnego słowa w szukanej frazie, jeśli to słowo poprzedza minus (-)",
+        "description": "wyniki wyszukiwania wykluczają trafienia słowa poprzedzego minusem (-)",
         "example_title": "Przykład wyszukiwania:",
         "example_text": "-Klub parlamentarny",
         "example_result_title": "Wyniki wyszukiwania:",
