@@ -1,9 +1,9 @@
 {
   "landing": {
     "title": "Parlametr",
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
+    "lead": "Parametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Sejmu RP.",
     "search": {
-      "part_one": "Išči",
+      "part_one": "Szukaj",
       "part_two": "zakone, glasovanja, poslance, poslanske skupine ali njihove govore"
     }
   },
