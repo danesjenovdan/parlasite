@@ -54,18 +54,18 @@
     "newsletter_sign_up": "Zapisz się do newslettera!",
     "newsletter_submit": "Wyślij",
     "donate": "Wesprzyj!",
-    "press": "Za medije",
-    "legal": "Pravno obvestilo"
+    "press": "Materiały prasowe",
+    "legal": "Informacje prawne"
   },
   "search_popup": {
-    "title": "Kako iskati?",
-    "first_paragraph": "Za privzet način iskanja je nastavljeno široko ujemanje (med zadetki se znajdejo vsi govori, ki vsebujejo katero koli od besed v iskalnem nizu). Med rezultati zadetkov se zaradi pregibanja pojavljajo vse slovnične oblike znotraj iste besedne vrste. To ne velja zgolj za iskanje z natančnim ujemanjem (\"narekovaji\").",
-    "second_paragraph": "Če želiš svoj iskalni niz dodatno modificirati, lahko uporabiš naslednje operatorje:",
+    "title": "Jak szukać?",
+    "first_paragraph": "Domyślne wyszukiwanie jest szerokie (wyświetli wszystkie przemówienia zawierające dowolne z wprowadzonych słów).",
+    "second_paragraph": "Jeśli chcesz zmodyfikować szukaną frazę, możesz użyć następujących operatorów:",
     "operators": [
       {
-        "name": "IN",
-        "description": "med rezultati iskanja bodo zgolj zadetki, ki vključujejo vse besede v iskalnem nizu (a ne glede na njihov vrstni red)",
-        "example_title": "Primer iskanja:",
+        "name": "I",
+        "description": "wyszukiwarka zwróci tylko te wyniki, które zawierają wszystkie słowa w szukanej frazie (niezależnie od ich kolejności)",
+        "example_title": "Przykład wyszukiwania:",
         "example_text": "Ivan IN Cankar",
         "example_result_title": "Rezultati iskanja:",
         "example_result_text": "Ivan Cankar<br> Cankar, Ivan",
