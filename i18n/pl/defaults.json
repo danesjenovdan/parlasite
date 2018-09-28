@@ -167,11 +167,11 @@
     "state_five": "Transkripta govorov izbrane seje žal še ni na spletu.",
     "tools_intro": "Demokracija je nenehen proces, odvisen od našega sodelovanja v njem. Pri tem si lahko pomagaš s spodnjimi orodji!",
     "page-not-found-text": "Tukaj ni ničesar. Kaj pa iščeš?",
-    "info_email": "info@parlameter.si"
+    "info_email": "info@parlametr.pl"
   },
   "social": {
-    "facebook": "https://www.facebook.com/parlameter",
-    "twitter": "https://twitter.com/Parlameter_si",
+    "facebook": "https://www.facebook.com/parlametr",
+    "twitter": "https://twitter.com/Parlametr_pl",
     "instagram": "[empty]"
   },
   "titles": {
@@ -180,9 +180,9 @@
     "other-votings": "Inne głosowania",
     "transcript": "Transkrypcja",
     "voting": "Głosowanie",
-    "session-list": "Seznam sej",
-    "sessions-search": "Išči seje",
-    "thank-you": "Hvala!",
+    "session-list": "Lista sesji",
+    "sessions-search": "Szukaj sesji",
+    "thank-you": "Dziękujemy!",
     "ups": ":("
   }
 }
