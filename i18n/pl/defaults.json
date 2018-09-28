@@ -4,16 +4,16 @@
     "lead": "Parametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Sejmu RP.",
     "search": {
       "part_one": "Szukaj",
-      "part_two": "zakone, glasovanja, poslance, poslanske skupine ali njihove govore"
+      "part_two": "ustawy, głosowania, posłowie, kluby parlamentarne i ich wystąpienia"
     }
   },
   "about": {
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
-    "afterlead": "Uporabnikom prijazna vizualna zasnova in tehnološko napredna modularna zasnova povečujeta transparentnost delovanja najpomembnejše demokratične institucije in omogočata učinkovit vpogled v odločevalski proces.",
+    "lead": "Parametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Sejmu RP.",
+    "afterlead": "Przyjazna dla użytkownika wizualna i technologicznie zaawansowana konstrukcja modułowa zwiększa przejrzystość funkcjonowania najważniejszych instytucji demokratycznych i umożliwia skuteczny wgląd w proces decyzyjny.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
       "first": {
-        "title": "Splošna javnost",
+        "title": "Opinia publiczna",
         "paragraph": "Delovanje demokracije je odvisno od budnega in odgovornega nadzora nad delovanjem oblasti, za kar pa je predpogoj dobro informirana javnost. Hvala, ker ti ni vseeno."
       },
       "second": {
