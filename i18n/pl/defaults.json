@@ -108,13 +108,13 @@
     "intro": "Twoja darowizna pomoże zapewnić dalszy rozwój i umożliwić długotrwałe działanie Parlametru.",
     "personal": "INDYWIDUALNA<br>DAROWIZNA",
     "business": "ZBIOROWA<br>DAROWIZNA",
-    "bitcoin": "DAROWIZNA BITCOIN",
+    "bitcoin": "BITCOIN DAROWIZNA",
     "business_success": "O szczegółach najlepiej jest porozmawiać poprzez e-mail.",
     "business_success_email": "e-mail",
     "business_success_message": "wiadomość",
     "business_success_send": "WYŚLIJ",
     "thank_you": "DZIĘKUJEMY!",
-    "error": "Ups, coś poszło nie tak... :(",
+    "error": "Ups, coś poszło nie tak. :(",
     "choice": "DAROWIZNA Z WYBORU",
     "amount": "suma",
     "card": "ZA POMOCĄ KARTY KREDYTOWEJ",
@@ -123,7 +123,7 @@
   "tools": {
     "notifications": {
       "title": "Parlametr powiadomienia",
-      "text": "Wycinki z sesji sejmowych! Otrzymuj powiadomienia e-mail za każdym razem, gdy ktoś w sejmie wypowie wybrane przez ciebie słowo (lub więcej słów)."
+      "text": "Fragmenty z posiedzeń sejmowych! Otrzymuj powiadomienia e-mail za każdym razem, gdy ktoś w sejmie wypowie wybrane przez ciebie słowo (lub więcej słów)."
     },
     "voteComparator": {
       "title": "Komparator głosowań",
