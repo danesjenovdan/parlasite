@@ -86,26 +86,26 @@
         "name": "! (WYKRZYKNIK)",
         "description": "wyniki wyszukiwania muszą zawierać słowo zaznaczone wykrzyknikiem w szukanej frazie, podczas gdy inne słowa w szukanej frazie służą tylko do uszeregowania wyników",
         "example_title": "Przykład wyszukiwania:",
-        "example_text": "Klub !parlamentarny",
+        "example_text": "!klub parlamentarny",
         "example_result_title": "Wyniki wyszukiwania:",
-        "example_result_text": "Poslanska skupina,<br> skupina poslancev,<br> mednarodna skupina",
-        "example_excluded_result_title": "Ni rezultat iskanja",
-        "example_excluded_result_text": "Poslanska služba"
+        "example_result_text": "Klub parlamentarny,<br> klub parlamentarny,<br> międzynarodowy klub",
+        "example_excluded_result_title": "Nie znaleziono pasujących wyników",
+        "example_excluded_result_text": "Mandat poselski"
       },
       {
-        "name": "- (MINUS)",
-        "description": "rezultati iskanja izključujejo zadetke s posamezno besedo v iskalnem nizu, če to besedo predhaja minus (-)",
-        "example_title": "Primer iskanja:",
-        "example_text": "-Poslanska skupina",
-        "example_result_title": "Rezultati iskanja:",
-        "example_result_text": "skupina poslancev,<br> mednarodna skupina",
-        "example_excluded_result_title": "Ni rezultat iskanja",
-        "example_excluded_result_text": "Poslanska skupina"
+        "name": "-(MINUS)",
+        "description": "wyniki wyszukiwania wykluczają trafienia poszczególnego słowa w szukanej frazie, jeśli to słowo poprzedza minus (-)",
+        "example_title": "Przykład wyszukiwania:",
+        "example_text": "-Klub parlamentarny",
+        "example_result_title": "Wyniki wyszukiwania:",
+        "example_result_text": "klub parlamentarny,<br> międzynarodowy klub",
+        "example_excluded_result_title": "Nie znaleziono pasujących wyników",
+        "example_excluded_result_text": "Klub parlamentarny"
       }
     ]
   },
   "donation": {
-    "intro": "Tvoja donacija bo pomagala zagotoviti nadaljnji razvoj in omogočiti dolgoročno delovanje Parlametra.",
+    "intro": "Twoja darowizna pomoże zapewnić dalszy rozwój i umożliwić długotrwałe działanie Parlametru.",
     "personal": "OSEBNA<br>DONACIJA",
     "business": "CORPORATE<br>DONACIJA",
     "bitcoin": "BITCOIN DONACIJA",
