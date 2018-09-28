@@ -161,10 +161,10 @@
     "legislation": "ustawodawstwo",
     "other_votings": "drugie głosowanie",
     "transcripts": "transkrypcje",
-    "state_one": "Sejm Rzeczypospolitej Polskiej nie publikuje zapisów głosowań organów roboczych.\nPowiedz im, że muszą to zmienić.",
+    "state_one": "Sejm Rzeczypospolitej Polskiej nie publikuje zapisów głosowań komisji.\nPowiedz im, że muszą to zmienić.",
     "state_two": "Državni zbor RS ne objavlja podatkov o glasovanjih na Kolegiju predsednika državnega zbora. <a class=\"funblue-light-hover\" href=\"mailto:soj@dz-rs.si\">Povej jim</a>, da morajo to spremeniti.",
-    "state_one_dz": "Przepraszamy, dane o głosowaniu z wybranej sesji nie są jeszcze dostępne.",
-    "state_five": "Przepraszamy, transkrypcja przemówień wybranej sesji, nie jest jeszcze dostępna online.",
+    "state_one_dz": "Przepraszamy, dane o głosowaniu z wybranego posiedzenia nie są jeszcze dostępne.",
+    "state_five": "Przepraszamy, transkrypcja wystąpień wybranego posiedzenia nie jest jeszcze dostępna online.",
     "tools_intro": "Demokracja jest procesem ciągłym, który zależy od naszego uczestnictwa w nim. Skorzystaj z poniższych narzędzi, aby pomóc ci się lepiej zaangażować!",
     "page-not-found-text": "Tutaj niczego nie ma. Czego szukasz?",
     "info_email": "info@parlametr.pl"
@@ -175,13 +175,13 @@
     "instagram": "[empty]"
   },
   "titles": {
-    "session": "Sesja",
+    "session": "Posiedzenie",
     "legislation": "Ustawodawstwo",
     "other-votings": "Inne głosowania",
     "transcript": "Transkrypcja",
     "voting": "Głosowanie",
-    "session-list": "Lista sesji",
-    "sessions-search": "Szukaj sesji",
+    "session-list": "Lista posiedzeń",
+    "sessions-search": "Szukaj posiedzenia",
     "thank-you": "Dziękujemy!",
     "ups": ":("
   }
