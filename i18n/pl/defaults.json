@@ -123,23 +123,23 @@
   "tools": {
     "notifications": {
       "title": "Parlametr powiadomienia",
-      "text": "Kliping iz parlamentarnih sej! Prejmi obvestilo na mail kadar koli kdo v Državnem zboru izreče izbrano besedo (ali več)."
+      "text": "Wycinki z sesji sejmowych! Otrzymuj powiadomienia e-mail za każdym razem, gdy ktoś w sejmie wypowie wybrane przez ciebie słowo (lub więcej słów)."
     },
     "voteComparator": {
       "title": "Komparator głosowań",
-      "text": "S primerjalnikom glasovanj lahko odgovoriš na vprašanja kot je: Kdaj so poslanci Levice glasovali enako kot poslanci SDS?"
+      "text": "Komparator głosowań pozwala odpowiedzieć na pytania takie jak: Kiedy członkowie jednej partii głosowali tak samo, jak ich najwięksi rywale polityczni?"
     },
     "discord": {
       "title": "Analiza niezgodności",
-      "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
+      "text": "Zbadaj niezgodność w klubach parlamentarnych w oparciu o to, jak bardzo nie zgadzali się co do konkretnych aktów prawnych."
     },
     "compass": {
       "title": "Parlamentarny kompas",
-      "text": "Vizualizacija vseh poslank in poslancev v virtualnem \"prostoru\". Dlje ko sta poslanca narazen, bolj različno glasujeta."
+      "text": "Wizualizacja wszystkich posłanek i posłów w wirtualnej \"przestrzeni\". Im dalej od siebie są dwaj posłowie, tym większa niezgodność w ich wzorcach głosowania."
     },
     "wordGroups": {
       "title": "Grupy słów",
-      "text": "Razišči, kdo največ govori o določenih tematikah oziroma kdo največkrat izgovori določene skupine besed.<br><br>"
+      "text": "Dowiedz się, kto mówi najwięcej o pewnych tematach lub kto najczęściej używa określonych grup słów.<br><br>"
     }
   },
   "general": {
