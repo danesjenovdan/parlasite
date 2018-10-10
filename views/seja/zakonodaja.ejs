@@ -7,7 +7,7 @@
   <% if (session.votes) { %>
     <div class="row">
       <div class="col-md-12">
-        <%- await fetchCard('/c/zakonodaja/', session.id, { customUrl: `{analize}/s/getLegislationList/${session.id}` }) %>
+        <%- await fetchCard('/c/in-development/', { state: { title: i18n('general.legislation') } }) %>
       </div>
     </div>
   <% } else if (session.org.name === 'Državni zbor') { %>
