@@ -1,5 +1,6 @@
 <%- await include('../_partials/header.ejs') %>
 
+<!--
 <div class="col-md-12">
     <div class="card-container" id="about">
         <div class="card-content">
@@ -29,7 +30,7 @@
                         <div class="gradient-title"><%- i18n('about.columns.second.title') %></div>
                         <p><%- i18n('about.columns.second.paragraph') %></p>
                     </div>
-    
+
                     <div class="col-md-4 public-col">
                         <div class="gradient-title"><%- i18n('about.columns.third.title') %></div>
                         <p><%- i18n('about.columns.third.paragraph') %></p>
@@ -44,6 +45,12 @@
         </div>
 
     </div>
+</div>
+-->
+<div class="row">
+  <div class="col-md-12">
+    <%- await fetchCard('/c/in-development/', { state: { title: i18n('footer.about') } }) %>
+  </div>
 </div>
 
 <%- await include('../_partials/footer.ejs') %>

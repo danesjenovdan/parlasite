@@ -1,6 +1,6 @@
 <%- await include('../_partials/header.ejs') %>
 
-
+<!--
 <div class="card-container" id="about">
     <div class="card-content text-justify">
         <h2 class="text-center"><span class="gradient-title" style="font-size: 30px"><%- i18n('legal.title') %></span></h2>
@@ -8,6 +8,12 @@
             <%- i18n('legal.body') %>
         </div>
     </div>
+</div>
+-->
+<div class="row">
+  <div class="col-md-12">
+    <%- await fetchCard('/c/in-development/', { state: { title: i18n('legal.title') } }) %>
+  </div>
 </div>
 
 
