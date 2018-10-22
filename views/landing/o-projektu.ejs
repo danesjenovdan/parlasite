@@ -1,6 +1,5 @@
 <%- await include('../_partials/header.ejs') %>
 
-<!--
 <div class="col-md-12">
     <div class="card-container" id="about">
         <div class="card-content">
@@ -45,12 +44,6 @@
         </div>
 
     </div>
-</div>
--->
-<div class="row">
-  <div class="col-md-12">
-    <%- await fetchCard('/c/in-development/', { state: { title: i18n('footer.about') } }) %>
-  </div>
 </div>
 
 <%- await include('../_partials/footer.ejs') %>
