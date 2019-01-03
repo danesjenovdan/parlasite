@@ -8,12 +8,12 @@
     }
   },
   "about": {
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
+    "lead": "Parlametar je alat, koji pomoću analize glasanja i transkripata zastupničkih nastupa, olakšava praćenje Parlamenta Bosne i Hercegovine.",
     "afterlead": "Uporabnikom prijazna vizualna zasnova in tehnološko napredna modularna zasnova povečujeta transparentnost delovanja najpomembnejše demokratične institucije in omogočata učinkovit vpogled v odločevalski proces.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
       "first": {
-        "title": "Splošna javnost",
+        "title": "Javnost",
         "paragraph": "Delovanje demokracije je odvisno od budnega in odgovornega nadzora nad delovanjem oblasti, za kar pa je predpogoj dobro informirana javnost. Hvala, ker ti ni vseeno."
       },
       "second": {
@@ -21,7 +21,7 @@
         "paragraph": "Vse obstoječe kartice je mogoče brezplačno vdelati na katero koli spletno mesto. Podatke obdelamo mi, da se lahko mediji posvetijo interpretaciji."
       },
       "third": {
-        "title": "Razvijalska javnost",
+        "title": "Programerska zajednica",
         "paragraph": "Vsi podatki so brezplačno na voljo preko dveh API vmesnikov, na Githubu pa je objavljena tudi vsa koda. Vse potrebno najdeš na <a href=\"https://dev.parlameter.si\">strani za razvijalce</a>, če potrebuješ še kakšno pomoč, pa se nam javi po e-pošti!"
       }
     },
