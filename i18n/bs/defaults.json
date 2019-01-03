@@ -1,10 +1,10 @@
 {
   "landing": {
-    "title": "Parlameter",
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
+    "title": "Parlametar",
+    "lead": "Parlametar je alat koji, pomoću analize glasanja i transkripata zastupničkih nastupa, olakšava praćenje rada Hrvatskog sabora.BLA BLA BOSANSKI FIX.",
     "search": {
-      "part_one": "Išči",
-      "part_two": "zakone, glasovanja, poslance, poslanske skupine ali njihove govore"
+      "part_one": "Traži",
+      "part_two": "zakone, glasanja, zastupnice, klubove ili zastupničke govore blabla bosanski blabla"
     }
   },
   "about": {
