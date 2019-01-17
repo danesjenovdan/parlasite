@@ -73,9 +73,9 @@
         "example_excluded_result_text": ""
       },
       {
-        "name": "\"NAREKOVAJI\"",
-        "description": "med rezultati iskanja bodo samo zadetki, ki vključujejo točen nabor znakov",
-        "example_title": "Primer iskanja:",
+        "name": "\"NAVODNICI\"",
+        "description": "prikazuje samo rezultate koji sadrže tačan skup znakova",
+        "example_title": "Primjer pretrage:",
         "example_text": "Humanitarna kriza",
         "example_result_title": "",
         "example_result_text": "",
@@ -83,105 +83,105 @@
         "example_excluded_result_text": ""
       },
       {
-        "name": "! (KLICAJ)",
-        "description": "rezultati iskanja nujno vključujejo s klicajem označeno besedo v iskalnem nizu, druge besede iskalnega niza pa služijo zgolj za rangiranje rezultatov",
-        "example_title": "Primer iskanja:",
-        "example_text": "Poslanska !skupina",
-        "example_result_title": "Rezultati iskanja:",
-        "example_result_text": "Poslanska skupina,<br> skupina poslancev,<br> mednarodna skupina",
-        "example_excluded_result_title": "Ni rezultat iskanja",
-        "example_excluded_result_text": "Poslanska služba"
+        "name": "! (UZVIČNIK)",
+        "description": "rezultati pretraživanja obavezno uključuju riječ označenu uzvičnikom, dok druge riječi u nizu za pretraživanje služe samo za rangiranje rezultata",
+        "example_title": "Primjer pretrage:",
+        "example_text": "Klub !zastupnika",
+        "example_result_title": "Rezultati pretrage:",
+        "example_result_text": "Klub zastupnika,<br> zastupnika kluba,<br> zastupnika manjina",
+        "example_excluded_result_title": "Nije rezultat pretrage",
+        "example_excluded_result_text": "Zastupnički mandat"
       },
       {
         "name": "- (MINUS)",
-        "description": "rezultati iskanja izključujejo zadetke s posamezno besedo v iskalnem nizu, če to besedo predhaja minus (-)",
-        "example_title": "Primer iskanja:",
-        "example_text": "-Poslanska skupina",
-        "example_result_title": "Rezultati iskanja:",
-        "example_result_text": "skupina poslancev,<br> mednarodna skupina",
-        "example_excluded_result_title": "Ni rezultat iskanja",
-        "example_excluded_result_text": "Poslanska skupina"
+        "description": "rezultati pretrage isključuju riječi ispred kojih je stavljen minus (-)",
+        "example_title": "Primjer pretrage:",
+        "example_text": "-Klub zastupnika",
+        "example_result_title": "Rezultati pretrage:",
+        "example_result_text": "zastupnik stranke,<br> zastupnik manjina",
+        "example_excluded_result_title": "Nije rezultat pretrage",
+        "example_excluded_result_text": "Klub zastupnika"
       }
     ]
   },
   "donation": {
-    "intro": "Tvoja donacija bo pomagala zagotoviti nadaljnji razvoj in omogočiti dolgoročno delovanje Parlametra.",
-    "personal": "OSEBNA<br>DONACIJA",
-    "business": "CORPORATE<br>DONACIJA",
+    "intro": "Donacijom pomažete daljnji razvoj i omogućujete dugoročni rad Parlametra.",
+    "personal": "LIČNA<br>DONACIJA",
+    "business": "KORPORATIVNA<br>DONACIJA",
     "bitcoin": "BITCOIN DONACIJA",
-    "business_success": "Najlažje, da se o podrobnostih pogovorimo po e-pošti.",
-    "business_success_email": "e-pošta",
-    "business_success_message": "sporočilo",
-    "business_success_send": "POŠLJI",
+    "business_success": "Pojedinosti je najlakše dogovoriti e-mailom.",
+    "business_success_email": "e-mail",
+    "business_success_message": "poruka",
+    "business_success_send": "POŠALJI",
     "thank_you": "HVALA!",
-    "error": "Ups, nekaj je šlo narobe. :(",
-    "choice": "DONACIJA PO IZBIRI",
+    "error": "Ups, nešto nije kako treba. :(",
+    "choice": "DONACIJA PO IZBORU",
     "amount": "količina",
-    "card": "S KARTICO",
-    "monthly": "mesečna donacija"
+    "card": "KARTICOM",
+    "monthly": "mjesečna donacija"
   },
   "tools": {
     "notifications": {
-      "title": "Parlameter obvestila",
-      "text": "Kliping iz parlamentarnih sej! Prejmi obvestilo na mail kadar koli kdo v Državnem zboru izreče izbrano besedo (ali več)."
+      "title": "Parlameter obavijesti",
+      "text": "Isječci sa sjednica Parlamenta! Primite mail svaki put kad neko u Parlamentu izgovori riječ (ili više njih) koje ste odabrali."
     },
     "voteComparator": {
-      "title": "Primerjalnik glasovanj",
-      "text": "S primerjalnikom glasovanj lahko odgovoriš na vprašanja kot je: Kdaj so poslanci Levice glasovali enako kot poslanci SDS?"
+      "title": "Usporedba glasanja",
+      "text": "Usporedba glasanja odgovara na pitanja poput: Kada su zastupnici SDP-a glasali isto kao i zastupnici HDZ-a?"
     },
     "discord": {
-      "title": "Raziskovalec neenotnosti",
-      "text": "Raziskuj neenotnost v parlamentarnih skupinah glede na to, koliko nestrinjanja je bilo pri glasovanjih v poslanskih skupinah."
+      "title": "Pretraživač razjedinjenosti",
+      "text": "Istražite nesložnosti unutar klubova zastupnika s obzirom na to koliko je unutar kluba bilo neslaganja u glasanju."
     },
     "compass": {
       "title": "Parlamentarni kompas",
-      "text": "Vizualizacija vseh poslank in poslancev v virtualnem \"prostoru\". Dlje ko sta poslanca narazen, bolj različno glasujeta."
+      "text": "Vizualizacija svih zastupnika u virtualnom 'prostoru'. Što je veća udaljenost među zastupnicima, veće su razlike u njihovom glasanju."
     },
     "wordGroups": {
-      "title": "Skupine besed",
-      "text": "Razišči, kdo največ govori o določenih tematikah oziroma kdo največkrat izgovori določene skupine besed.<br><br>"
+      "title": "Grupe riječi",
+      "text": "Istražite ko najviše govori o određenoj temi, ili ko među zastupnicima najčešće koristi određene grupe riječi.<br><br>"
     }
   },
   "general": {
     "coalition": "koalicija",
     "opposition": "opozicija",
-    "inactive": "NEAKTIVEN",
+    "inactive": "NEAKTIVAN",
     "overview": "Pregled",
-    "voting": "Glasovanja",
+    "voting": "Glasanja",
     "speeches": "Govori",
-    "data_published": "podatki objavljeni",
-    "in_review": "v pregledu",
-    "vote-result--enacted": "Sprejet",
-    "vote-result--submitted": "Oddan",
-    "vote-result--rejected": "Zavrnjen",
-    "vote-result--retracted": "Umaknjen",
-    "vote-result--adopted": "Sprejet",
-    "vote-result--received": "Prejet",
-    "vote-result--in_procedure": "V obravnavi",
-    "legislation": "Zakonodaja",
-    "other_votings": "Druga glasovanja",
-    "transcripts": "Transkripti",
+    "data_published": "objavljeni podaci",
+    "in_review": "u pregledu",
+    "vote-result--enacted": "Donesen",
+    "vote-result--submitted": "Dostavljeno radi informiranja",
+    "vote-result--rejected": "Odbijen",
+    "vote-result--retracted": "Povučen",
+    "vote-result--adopted": "Prihvaćen",
+    "vote-result--received": "Prima se na znanje",
+    "vote-result--in_procedure": "U proceduri",
+    "legislation": "Zakonodavstvo",
+    "other_votings": "Druga glasanja",
+    "transcripts": "Stenogrami",
     "state_one": "Državni zbor RS ne objavlja podatkov o glasovanjih na delovnih telesih. <a class=\"funblue-light-hover\" href=\"mailto:soj@dz-rs.si\">Povej jim</a>, da morajo to spremeniti.",
     "state_two": "Državni zbor RS ne objavlja podatkov o glasovanjih na Kolegiju predsednika državnega zbora. <a class=\"funblue-light-hover\" href=\"mailto:soj@dz-rs.si\">Povej jim</a>, da morajo to spremeniti.",
     "state_one_dz": "Glasovanja iz izbrane seje žal še niso na voljo.",
-    "state_five": "Transkripta govorov izbrane seje žal še ni na spletu.",
+    "state_five": "Transkripti govora izabrane sjednice na žalost još nisu dostupni on-line.",
     "tools_intro": "Demokracija je nenehen proces, odvisen od našega sodelovanja v njem. Pri tem si lahko pomagaš s spodnjimi orodji!",
-    "page-not-found-text": "Tukaj ni ničesar. Kaj pa iščeš?",
-    "info_email": "info@parlameter.si"
+    "page-not-found-text": "Ovdje nema ništa. Šta tražiš?",
+    "info_email": "info@javnarasprava.ba"
   },
   "social": {
-    "facebook": "https://www.facebook.com/parlameter",
-    "twitter": "https://twitter.com/Parlameter_si",
+    "facebook": "https://www.facebook.com/javnarasprava",
+    "twitter": "https://twitter.com/Javna_Rasprava",
     "instagram": "[empty]"
   },
   "titles": {
-    "session": "Seja",
-    "legislation": "Zakonodaja",
-    "other-votings": "Druga glasovanja",
-    "transcript": "Transkript",
-    "voting": "Glasovanje",
-    "session-list": "Seznam sej",
-    "sessions-search": "Išči seje",
+    "session": "Sjednica",
+    "legislation": "Zakonodavstvo",
+    "other-votings": "Glasanja",
+    "transcript": "Stenogram",
+    "voting": "Glasanje",
+    "session-list": "Popis sjednica",
+    "sessions-search": "Traži sjednice",
     "thank-you": "Hvala!",
     "ups": ":("
   }
