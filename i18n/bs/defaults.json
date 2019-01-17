@@ -9,20 +9,20 @@
   },
   "about": {
     "lead": "Parlametar je alat, koji pomoću analize glasanja i transkripata zastupničkih nastupa, olakšava praćenje Parlamenta Bosne i Hercegovine.",
-    "afterlead": "Uporabnikom prijazna vizualna zasnova in tehnološko napredna modularna zasnova povečujeta transparentnost delovanja najpomembnejše demokratične institucije in omogočata učinkovit vpogled v odločevalski proces.",
+    "afterlead": "Upotrebom user-friendly dizajna i korištenjem tehnološki naprednih modularnih rješenja povećava se transparentnost najvažnije zakonodavne institucije i omogućava učinkovit uvid u proces donošenja odluka.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
       "first": {
         "title": "Javnost",
-        "paragraph": "Delovanje demokracije je odvisno od budnega in odgovornega nadzora nad delovanjem oblasti, za kar pa je predpogoj dobro informirana javnost. Hvala, ker ti ni vseeno."
+        "paragraph": "Funkcionisanje demokratije ovisi o budnom i odgovornom nadzoru rada vladajućih, a preduslov za to je dobro informisana javnost. Hvala što vam nije svejedno."
       },
       "second": {
         "title": "Medijska javnost",
-        "paragraph": "Vse obstoječe kartice je mogoče brezplačno vdelati na katero koli spletno mesto. Podatke obdelamo mi, da se lahko mediji posvetijo interpretaciji."
+        "paragraph": "Sve postojeće kartice mogu se besplatno preuzeti i ugraditi na bilo koji website. Mi obrađujemo podatke kako bi se mediji mogli fokusirati na interpretaciju."
       },
       "third": {
         "title": "Programerska zajednica",
-        "paragraph": "Vsi podatki so brezplačno na voljo preko dveh API vmesnikov, na Githubu pa je objavljena tudi vsa koda. Vse potrebno najdeš na <a href=\"https://dev.parlameter.si\">strani za razvijalce</a>, če potrebuješ še kakšno pomoč, pa se nam javi po e-pošti!"
+        "paragraph": "Svi podaci su besplatno dostupni kroz dva API sučelja, i sav kôd objavljen je na Githubu. Sve potrebno možete pronaći na <a href=\"https://dev.parlameter.javnarasprava.ba\">stranici za developere/ke</a>. Za sve informacije možete nam se obratiti putem emaila!"
       }
     },
     "thanks": "Parlameter nastaja v okviru inštituta <a href=\"http://danesjenovdan.si\" class=\"funblue-light-hover\">Danes je nov dan</a>, ki se osredotoča na digitalno politično participacijo, transparentnost in nadzor. Hvala Google DNI, Amebisu, in vsem posameznicam in posameznikom, ki so nam nesebično pomagali pri razvoju."
