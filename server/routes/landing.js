@@ -28,6 +28,13 @@ router.get(`/${sm.landing.members}`, ar((render) => {
   });
 }));
 
+router.get('/delegati', ar((render) => {
+  render('landing/poslanci2', {
+    activeMenu: 'mps2',
+    pageTitle: 'Delegati',
+  });
+}));
+
 router.get(`/${sm.landing.parties}`, ar((render) => {
   render('landing/poslanske-skupine', {
     activeMenu: 'pgs',
