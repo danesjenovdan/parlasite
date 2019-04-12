@@ -1,5 +1,7 @@
 <%- await include('../_partials/header.ejs') %>
 
-<%- await fetchCard('/ps/seznam-poslanskih-skupin/', { state: { generator: true } }) %>
+<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 1, { state: { generator: true } }) %>
+
+<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 51, { state: { generator: true } }) %>
 
 <%- await include('../_partials/footer.ejs') %>
