@@ -15,6 +15,7 @@ const defaultConfig = {
     // base: 'https://parlameter.si',
   },
   siteLang: 'sl',
+  organisationsWithTfidf: [],
   siteMap: {
     landing: {
       legislation: 'zakonodaja',

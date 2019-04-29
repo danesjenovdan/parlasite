@@ -6,7 +6,7 @@
 <% if (session.speeches) { %>
 <div class="row">
   <div class="col-md-12">
-    <% if (session.organization.classification === 'dz') { %>
+    <% if (config.organisationsWithTfidf.includes(session.organization.id)) { %>
       <%- await fetchCard('/s/tfidf/', session.id_parladata) %>
     <% } %>
   </div>
