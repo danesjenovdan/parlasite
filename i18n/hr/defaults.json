@@ -46,7 +46,7 @@
     }
   },
   "menu": {
-    "legislation": "Glasanja",
+    "legislation": "Zakonodavstvo",
     "sessions": "Sjednice",
     "mps": "Zastupnice",
     "pgs": "Klubovi",
@@ -162,7 +162,7 @@
     "vote-result--received": "Prima se na znanje",
     "vote-result--in_procedure": "U proceduri",
     "legislation": "Zakonodavstvo",
-    "other_votings": "Glasanja",
+    "other_votings": "Druga glasanja",
     "transcripts": "Transkripti",
     "state_one": "Hrvatski sabor ne objavljuje podatke o glasanju na sjednicama radnih tijela. <a class=\"funblue-light-hover\" href=\"mailto:soj@dz-rs.si\">Poruči im</a>, to moraju promijeniti.",
     "state_two": "Hrvatski sabor ne objavljuje nikakve podatke o sjednicama i radu Predsjedništva Sabora. <a class=\"funblue-light-hover\" href=\"mailto:soj@dz-rs.si\">Poruči im, to moraju promijeniti.",
@@ -180,7 +180,7 @@
   "titles": {
     "session": "Sjednica",
     "legislation": "Zakonodavstvo",
-    "other-votings": "Glasanja",
+    "other-votings": "Druga glasanja",
     "transcript": "Transkript",
     "voting": "Glasanje",
     "session-list": "Popis sjednica",
