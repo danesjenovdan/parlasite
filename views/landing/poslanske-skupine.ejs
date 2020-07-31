@@ -1,9 +1,9 @@
 <%- await include('../_partials/header.ejs') %>
 
-<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 1, { state: { generator: true } }) %>
+<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 1, { state: { generator: true, cardTitle: 'Predstavnički dom - Popis klubova' } }) %>
 
 <div style="height:25px"></div>
 
-<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 51, { state: { generator: true } }) %>
+<%- await fetchCard('/ps/seznam-poslanskih-skupin/', 51, { state: { generator: true, cardTitle: 'Dom naroda - Popis klubova' } }) %>
 
 <%- await include('../_partials/footer.ejs') %>
