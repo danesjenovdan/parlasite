@@ -10,7 +10,7 @@
         <%- await fetchCard('/c/zakonodaja/', session.id_parladata, { customUrl: `{analize}/s/getLegislationList/${session.id_parladata}` }) %>
       </div>
     </div>
-  <% } else if (session.organization.name === 'Državni zbor') { %>
+  <% } else if (session.organization.name === 'Državni zbor' || true /* BIH OVERRIDE */) { %>
     <%- await include('../empty-state/state1dz.ejs') %>
   <% } else { %>
     <%- await include('../empty-state/state1.ejs') %>
