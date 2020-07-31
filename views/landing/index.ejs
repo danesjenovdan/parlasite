@@ -60,9 +60,9 @@
   <%# </div> %>
 
   <div class="col-md-12">
-    <%- await fetchCard('/c/zadnja-seja/', 1) %>
+    <%- await fetchCard('/c/zadnja-seja/', 1, { state: { cardTitle: 'Predstavnički dom - Posljednja sjednica' }}) %>
     <div style="height:25px"></div>
-    <%- await fetchCard('/c/zadnja-seja/', 51) %>
+    <%- await fetchCard('/c/zadnja-seja/', 51, { state: { cardTitle: 'Dom naroda - Posljednja sjednica' }}) %>
   </div>
 </div>
 
