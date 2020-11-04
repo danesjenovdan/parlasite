@@ -1,5 +1,27 @@
 <%- await include('../_partials/header.ejs') %>
 
-<%- await fetchCard('/p/seznam-poslancev/', { state: { generator: true } }) %>
+<div class="row">
+    <div class="col-md-12">
+        <%- await fetchCard('/p/seznam-poslancev/', 58, { state: { generator: false } }) %>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <%- await fetchCard('/p/seznam-poslancev/', 81, { state: { generator: false } }) %>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <%- await fetchCard('/p/seznam-poslancev/', 82, { state: { generator: false } }) %>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <%- await fetchCard('/p/seznam-poslancev/', 83, { state: { generator: false } }) %>
+    </div>
+</div>
 
 <%- await include('../_partials/footer.ejs') %>
