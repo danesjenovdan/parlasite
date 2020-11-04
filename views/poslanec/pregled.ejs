@@ -10,19 +10,19 @@
     <%- await fetchCard('/p/zadnje-aktivnosti/', mp.id) %>
   </div>
   <div class="col-md-12">
-    <%- await fetchCard('/p/prisotnost-skozi-cas/', mp.id) %>
+    <%- await fetchCard('/p/govori/', mp.id, { customUrl: `{isci}/search/speeches?people=${mp.id}`, state: { person: mp.id } }) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/p/poslanska-vprasanja-in-pobude/', mp.id) %>
+    <%- await fetchCard('/p/tfidf/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/p/st-poslanskih-vprasanj-in-pobud/', mp.id) %>
+    <%- await fetchCard('/p/stevilo-izgovorjenih-besed/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/p/prisotnost-na-glasovanjih-sej-dz/', mp.id) %>
+    <%- await fetchCard('/p/povprecno-stevilo-govorov-na-sejo/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/p/clanstva/', mp.id) %>
+    <%- await fetchCard('/p/besedni-zaklad/', mp.id) %>
   </div>
 </div>
 
