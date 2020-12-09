@@ -1,14 +1,14 @@
 {
   "landing": {
     "title": "Parlametr",
-    "lead": "Parlametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Sejmu RP.",
+    "lead": "Parlametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Parlamentu RP.",
     "search": {
       "part_one": "Szukaj",
       "part_two": "ustawy, głosowania, posłowie, kluby parlamentarne i ich wystąpienia"
     }
   },
   "about": {
-    "lead": "Parlametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Sejmu RP.",
+    "lead": "Parlametr jest narzędziem, które analizując głosowania i zapisy wystąpień, ułatwia monitorowanie pracy Parlamentu RP.",
     "afterlead": "Przyjazna dla użytkownika wizualna i technologicznie zaawansowana konstrukcja modułowa zwiększa przejrzystość funkcjonowania najważniejszych instytucji demokratycznych i umożliwia skuteczny wgląd w proces decyzyjny.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
