@@ -20,7 +20,7 @@ function getData(idParam) {
   return (id && session) ? { session } : null;
 }
 
-router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, req, res, next) => {
+router.get(`/:id(\\d+)/${sm.session.legislation}`, ar((render, req, res, next) => {
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/zakonodaja', {
@@ -34,7 +34,7 @@ router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, r
   }
 }));
 
-router.get(`/:id(\\d+)/${sm.session.otherVotings}`, ar((render, req, res, next) => {
+router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.otherVotings}`], ar((render, req, res, next) => {
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/druga-glasovanja', {
