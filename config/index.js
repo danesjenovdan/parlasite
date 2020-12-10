@@ -59,6 +59,7 @@ const defaultConfig = {
       legislation: 'zakonodaja',
       otherVotings: 'druga-glasovanja',
       transcript: 'transkript',
+      agenda: 'dnevni-red',
       vote: 'glasovanje',
     },
   },
