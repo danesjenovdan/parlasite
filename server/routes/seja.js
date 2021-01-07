@@ -1,7 +1,7 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const data = require('../data');
-const { asyncRender: ar } = require('../utils');
+const { i18n: _i18n, asyncRender: ar } = require('../utils');
 const { siteMap: sm } = require('../../config');
 const { i18n } = require('../server');
 
@@ -21,6 +21,8 @@ function getData(idParam) {
 }
 
 router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/zakonodaja', {
@@ -35,6 +37,8 @@ router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, r
 }));
 
 router.get(`/:id(\\d+)/${sm.session.otherVotings}`, ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/druga-glasovanja', {
@@ -49,6 +53,8 @@ router.get(`/:id(\\d+)/${sm.session.otherVotings}`, ar((render, req, res, next) 
 }));
 
 router.get(`/:id(\\d+)/${sm.session.agenda}`, ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/dnevni-red', {
@@ -63,6 +69,8 @@ router.get(`/:id(\\d+)/${sm.session.agenda}`, ar((render, req, res, next) => {
 }));
 
 router.get([`/:id(\\d+)/${sm.session.transcript}`, `/:id(\\d+)/${sm.session.transcript}/:transcriptPage(\\d+)`], ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const sesData = getData(req.params.id);
   if (sesData) {
     render('seja/transkript', {
@@ -78,6 +86,8 @@ router.get([`/:id(\\d+)/${sm.session.transcript}`, `/:id(\\d+)/${sm.session.tran
 }));
 
 router.get(`/:id(\\d+)/${sm.session.vote}/:motionId(\\d+)`, ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const sesData = getData(req.params.id);
   if (sesData) {
     const motionId = Number(req.params.motionId);

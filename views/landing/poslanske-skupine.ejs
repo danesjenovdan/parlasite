@@ -1,26 +1,40 @@
 <%- await include('../_partials/header.ejs') %>
 
-<div class="row">
-    <div class="col-md-12">
-        <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 58, { state: { generator: false } }) %>
-    </div>
-</div>
+<style>
+    .nav-tabs {
+        padding-bottom: 0;
+        margin-top: 20px;
+    }
+    .nav-tabs li a {
+        color: rgb(51, 51, 51);
+    }
+</style>
 
 <div class="row">
-    <div class="col-md-12">
-        <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 81, { state: { generator: false } }) %>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-12">
-        <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 82, { state: { generator: false } }) %>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-12">
-        <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 83, { state: { generator: false } }) %>
+    <div class="col-xs-12">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#slovenia" data-toggle="tab">Slovenia</a></li>
+            <li><a href="#poland" data-toggle="tab">Poland</a></li>
+            <li><a href="#croatia" data-toggle="tab">Croatia</a></li>
+            <li><a href="#bulgaria" data-toggle="tab">Bulgaria</a></li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="slovenia">
+                <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 58, { state: { generator: false } }) %>
+            </div>
+            <div class="tab-pane fade" id="poland">
+                <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 83, { state: { generator: false } }) %>
+            </div>
+            <div class="tab-pane fade" id="croatia">
+                <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 81, { state: { generator: false } }) %>
+            </div>
+            <div class="tab-pane fade" id="bulgaria">
+                <%- await fetchCard('/ps/seznam-poslanskih-skupin/', 82, { state: { generator: false } }) %>
+            </div>
+        </div>
     </div>
 </div>
 

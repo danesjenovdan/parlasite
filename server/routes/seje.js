@@ -1,5 +1,5 @@
 const express = require('express');
-const { asyncRender: ar } = require('../utils');
+const { i18n: _i18n, asyncRender: ar } = require('../utils');
 const { siteMap: sm } = require('../../config');
 const { i18n } = require('../server');
 
@@ -13,6 +13,8 @@ router.get('/', ar((render) => {
 }));
 
 router.get(`/${sm.sessions.search.base}`, ar((render, req) => {
+  const i18n = _i18n(req.query.lang);
+
   const mps = req.query.mps ? req.query.mps.split(',').map(Number).filter(Boolean) : undefined;
   const pgs = req.query.pgs ? req.query.pgs.split(',').map(Number).filter(Boolean) : undefined;
   render('seje/isci', {

@@ -1,6 +1,6 @@
 const express = require('express');
 const data = require('../data');
-const { asyncRender: ar } = require('../utils');
+const { i18n: _i18n, asyncRender: ar } = require('../utils');
 const { siteMap: sm } = require('../../config');
 const { i18n } = require('../server');
 
@@ -40,6 +40,8 @@ function getData(idParam, slugParam) {
 }
 
 router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.party.overview}`, '/:slug([a-z0-9-]+)', `/:slug([a-z0-9-]+)/${sm.party.overview}`], ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const pgData = getData(req.params.id, req.params.slug);
   if (req.params.slug && req.params.slug !== pgData.slug) {
     res.redirect(`/${sm.party.base}/${pgData.slug}/${sm.party.overview}`);
@@ -56,6 +58,8 @@ router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.party.overview}`, '/:slug([a-z0-9-]+)
 }));
 
 router.get([`/:id(\\d+)/${sm.party.votings}`, `/:slug([a-z0-9-]+)/${sm.party.votings}`], ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const pgData = getData(req.params.id, req.params.slug);
   if (req.params.slug && req.params.slug !== pgData.slug) {
     res.redirect(`/${sm.party.base}/${pgData.slug}/${sm.party.votings}`);
@@ -72,6 +76,8 @@ router.get([`/:id(\\d+)/${sm.party.votings}`, `/:slug([a-z0-9-]+)/${sm.party.vot
 }));
 
 router.get([`/:id(\\d+)/${sm.party.speeches}`, `/:slug([a-z0-9-]+)/${sm.party.speeches}`], ar((render, req, res, next) => {
+  const i18n = _i18n(req.query.lang);
+
   const pgData = getData(req.params.id, req.params.slug);
   if (req.params.slug && req.params.slug !== pgData.slug) {
     res.redirect(`/${sm.party.base}/${pgData.slug}/${sm.party.speeches}`);
