@@ -1,20 +1,20 @@
 {
   "landing": {
     "title": "Parlameter",
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
+    "lead": "Parlameter analizuoja balsavimą ir kalbas parlamente, kad padėtų jums stebėti savo politikus.",
     "search": {
       "part_one": "Paieška",
-      "part_two": "zakone, glasovanja, poslance, poslanske skupine ali njihove govore"
+      "part_two": "įstatymai, balsavimas, atstovai, partijos ar jų kalbos"
     }
   },
   "about": {
-    "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
-    "afterlead": "Uporabnikom prijazna vizualna zasnova in tehnološko napredna modularna zasnova povečujeta transparentnost delovanja najpomembnejše demokratične institucije in omogočata učinkovit vpogled v odločevalski proces.",
+    "lead": "Parlameter analizuoja balsavimą ir kalbas parlamente, kad padėtų jums stebėti savo politikus.",
+    "afterlead": "Patogus dizainas ir pažangi modulinė sąsaja padidina svarbiausios demokratinės institucijos skaidrumą.",
     "videourl": "https://www.youtube.com/embed/49rAjdfnmYU",
     "columns": {
       "first": {
-        "title": "Splošna javnost",
-        "paragraph": "Delovanje demokracije je odvisno od budnega in odgovornega nadzora nad delovanjem oblasti, za kar pa je predpogoj dobro informirana javnost. Hvala, ker ti ni vseeno."
+        "title": "Plačioji visuomenė",
+        "paragraph": "Demokratija priklauso nuo budrių akių, stebinčių vyriausybę. Būtina sąlyga yra gerai informuota visuomenė. Ačiū, kad rūpinatės."
       },
       "second": {
         "title": "Medijska javnost",
@@ -46,22 +46,22 @@
     }
   },
   "menu": {
-    "legislation": "Zakonodaja",
+    "legislation": "Įstatymai",
     "sessions": "Sesijos",
     "mps": "Poslanci",
     "pgs": "Poslanske skupine",
-    "tools": "Orodja"
+    "tools": "Įrankiai"
   },
   "footer": {
-    "about": "O projektu",
+    "about": "Apie projektą",
     "newsletter_sign_up": "Prijavi se na mesečnik!",
-    "newsletter_submit": "Oddaj",
-    "donate": "Doniraj!",
-    "press": "Za medije",
-    "legal": "Pravno obvestilo"
+    "newsletter_submit": "Prisijungti",
+    "donate": "Paremk mus!",
+    "press": "Spaudai",
+    "legal": "Teisinė informacija"
   },
   "search_popup": {
-    "title": "Kako iskati?",
+    "title": "Kaip ieškoti?",
     "first_paragraph": "Za privzet način iskanja je nastavljeno široko ujemanje (med zadetki se znajdejo vsi govori, ki vsebujejo katero koli od besed v iskalnem nizu). Med rezultati zadetkov se zaradi pregibanja pojavljajo vse slovnične oblike znotraj iste besedne vrste. To ne velja zgolj za iskanje z natančnim ujemanjem (\"narekovaji\").",
     "second_paragraph": "Če želiš svoj iskalni niz dodatno modificirati, lahko uporabiš naslednje operatorje:",
     "operators": [
