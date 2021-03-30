@@ -3,7 +3,7 @@
     "title": "Parlameter",
     "lead": "Parlameter je orodje, ki z analizo glasovanj in transkriptov nastopov lajša spremljanje dela v Državnem zboru.",
     "search": {
-      "part_one": "Išči",
+      "part_one": "Paieška",
       "part_two": "zakone, glasovanja, poslance, poslanske skupine ali njihove govore"
     }
   },
@@ -47,7 +47,7 @@
   },
   "menu": {
     "legislation": "Zakonodaja",
-    "sessions": "Seje",
+    "sessions": "Sesijos",
     "mps": "Poslanci",
     "pgs": "Poslanske skupine",
     "tools": "Orodja"
