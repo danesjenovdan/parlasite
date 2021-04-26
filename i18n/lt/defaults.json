@@ -17,11 +17,11 @@
         "paragraph": "Demokratija priklauso nuo budrių akių, stebinčių vyriausybę. Būtina sąlyga yra gerai informuota visuomenė. Ačiū, kad rūpinatės."
       },
       "second": {
-        "title": "Medijska javnost",
-        "paragraph": "Vse obstoječe kartice je mogoče brezplačno vdelati na katero koli spletno mesto. Podatke obdelamo mi, da se lahko mediji posvetijo interpretaciji."
+        "title": "Žiniasklaida",
+        "paragraph": "Visas esamas korteles galima įdėti į bet kurią svetainę. Mes išanalizuojame duomenis tam, kad žiniasklaida galėtų sutelkti dėmesį į jų aiškinimą."
       },
       "third": {
-        "title": "Razvijalska javnost",
+        "title": "Kūrėjų bendruomenė",
         "paragraph": "Vsi podatki so brezplačno na voljo preko dveh API vmesnikov, na Githubu pa je objavljena tudi vsa koda. Vse potrebno najdeš na <a href=\"https://dev.parlameter.si\">strani za razvijalce</a>, če potrebuješ še kakšno pomoč, pa se nam javi po e-pošti!"
       }
     },
