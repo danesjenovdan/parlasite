@@ -22,7 +22,7 @@
       },
       "third": {
         "title": "Kūrėjų bendruomenė",
-        "paragraph": "Vsi podatki so brezplačno na voljo preko dveh API vmesnikov, na Githubu pa je objavljena tudi vsa koda. Vse potrebno najdeš na <a href=\"https://dev.parlameter.si\">strani za razvijalce</a>, če potrebuješ še kakšno pomoč, pa se nam javi po e-pošti!"
+        "paragraph": "Visi duomenys yra laisvai prieinami per kelias aplikacijų programavimos sąsajas (APS). Visas programinis kodas paskelbtas Github platformoje. <a href=\"https://dev.parlameter.si\">„Dev“</a> puslapyje rasite viską ko reikia!"
       }
     },
     "thanks": "Parlameter nastaja v okviru inštituta <a href=\"http://danesjenovdan.si\" class=\"funblue-light-hover\">Danes je nov dan</a>, ki se osredotoča na digitalno politično participacijo, transparentnost in nadzor. Hvala Google DNI, Amebisu, Ameriški ambasadi, NED in vsem posameznicam in posameznikom, ki so nam nesebično pomagali pri razvoju."
@@ -48,13 +48,13 @@
   "menu": {
     "legislation": "Įstatymai",
     "sessions": "Sesijos",
-    "mps": "Poslanci",
-    "pgs": "Poslanske skupine",
+    "mps": "Atstovai",
+    "pgs": "Seimo grupės",
     "tools": "Įrankiai"
   },
   "footer": {
     "about": "Apie projektą",
-    "newsletter_sign_up": "Prijavi se na mesečnik!",
+    "newsletter_sign_up": "Užsiprenumeruok naujienlaiškį!",
     "newsletter_submit": "Prisijungti",
     "donate": "Paremk mus!",
     "press": "Spaudai",
@@ -66,7 +66,7 @@
     "second_paragraph": "Če želiš svoj iskalni niz dodatno modificirati, lahko uporabiš naslednje operatorje:",
     "operators": [
       {
-        "name": "IN",
+        "name": "IR",
         "description": "med rezultati iskanja bodo zgolj zadetki, ki vključujejo vse besede v iskalnem nizu (a ne glede na njihov vrstni red)",
         "example_title": "Primer iskanja:",
         "example_text": "Ivan IN Cankar",
@@ -86,21 +86,21 @@
         "example_excluded_result_text": ""
       },
       {
-        "name": "! (KLICAJ)",
+        "name": "! (ŠAUKTUKAS)",
         "description": "rezultati iskanja nujno vključujejo s klicajem označeno besedo v iskalnem nizu, druge besede iskalnega niza pa služijo zgolj za rangiranje rezultatov",
-        "example_title": "Primer iskanja:",
+        "example_title": "Pavyzdžiui:",
         "example_text": "Poslanska !skupina",
-        "example_result_title": "Rezultati iskanja:",
+        "example_result_title": "Paieškos rezultatai:",
         "example_result_text": "Poslanska skupina,<br> skupina poslancev,<br> mednarodna skupina",
         "example_excluded_result_title": "Ni rezultat iskanja",
         "example_excluded_result_text": "Poslanska služba"
       },
       {
-        "name": "- (MINUS)",
+        "name": "- (MINUSAS)",
         "description": "rezultati iskanja izključujejo zadetke s posamezno besedo v iskalnem nizu, če to besedo predhaja minus (-)",
         "example_title": "Primer iskanja:",
         "example_text": "-Poslanska skupina",
-        "example_result_title": "Rezultati iskanja:",
+        "example_result_title": "Paieškos rezultatai:",
         "example_result_text": "skupina poslancev,<br> mednarodna skupina",
         "example_excluded_result_title": "Ni rezultat iskanja",
         "example_excluded_result_text": "Poslanska skupina"
@@ -113,9 +113,9 @@
     "business": "CORPORATE<br>DONACIJA",
     "bitcoin": "BITCOIN DONACIJA",
     "business_success": "Najlažje, da se o podrobnostih pogovorimo po e-pošti.",
-    "business_success_email": "e-pošta",
-    "business_success_message": "sporočilo",
-    "business_success_send": "POŠLJI",
+    "business_success_email": "el. paštas",
+    "business_success_message": "žinutė",
+    "business_success_send": "SIŲSTI",
     "thank_you": "HVALA!",
     "error": "Ups, nekaj je šlo narobe. :(",
     "choice": "DONACIJA PO IZBIRI",
