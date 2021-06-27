@@ -3,6 +3,8 @@ const env = process.env.NODE_ENV;
 const config = {
   port: 3066,
   serverTimeout: 120000,
+  mainOrgId: process.env.MAIN_ORG_ID,
+  mandateId: process.env.MANDATE_ID,
   urls: {
     cdn: 'https://parlassets-ljubljana.lb.djnd.si', // TODO
     analize: 'https://parladata.lb.djnd.si/v3/cards', // TODO
@@ -13,7 +15,7 @@ const config = {
     base: 'http://localhost:3066',
     parladata: 'http://parladata:8000'
   },
-  siteLang: 'sl',
+  siteLang: 'en',
   siteMap: {
     landing: {
       legislation: 'zakonodaja',

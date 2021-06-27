@@ -39,51 +39,51 @@ async function getNewData(id) {
   return false;
 }
 
-router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, req, res, next) => {
-  const sesData = getNewData(req.params.id).then((sesData) => {
-    console.log(sesData);
-    if (sesData) {
-      render('seja/druga-glasovanja', { // TODO this used to take you to zakonodaja
-        activeMenu: 'session',
-        pageTitle: `${i18n('titles.session')} - ${i18n('titles.other-votings')}`, // TODO this used to take you to zakonodaja (title.legislation)
-        activeTab: 'druga-glasovanja', // TODO this used to take you to zakonodaja
-        ...sesData,
-      });
-    } else {
-      next();
-    }
-  });
-}));
+// router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.legislation}`], ar((render, req, res, next) => {
+//   const sesData = getNewData(req.params.id).then((sesData) => {
+//     console.log(sesData);
+//     if (sesData) {
+//       render('seja/druga-glasovanja', { // TODO this used to take you to zakonodaja
+//         activeMenu: 'session',
+//         pageTitle: `${i18n('titles.session')} - ${i18n('titles.other-votings')}`, // TODO this used to take you to zakonodaja (title.legislation)
+//         activeTab: 'druga-glasovanja', // TODO this used to take you to zakonodaja
+//         ...sesData,
+//       });
+//     } else {
+//       next();
+//     }
+//   });
+// }));
 
-router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.otherVotings}`], ar((render, req, res, next) => {
-  const sesData = getNewData(req.params.id).then((sesData) => {
-    console.log(sesData);
-    if (sesData) {
-      render('seja/druga-glasovanja', {
-        activeMenu: 'session',
-        pageTitle: `${i18n('titles.session')} - ${i18n('titles.other-votings')}`,
-        activeTab: 'druga-glasovanja',
-        ...sesData,
-      });
-    } else {
-      next();
-    }
-  });
-}));
+// router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.otherVotings}`], ar((render, req, res, next) => {
+//   const sesData = getNewData(req.params.id).then((sesData) => {
+//     console.log(sesData);
+//     if (sesData) {
+//       render('seja/druga-glasovanja', {
+//         activeMenu: 'session',
+//         pageTitle: `${i18n('titles.session')} - ${i18n('titles.other-votings')}`,
+//         activeTab: 'druga-glasovanja',
+//         ...sesData,
+//       });
+//     } else {
+//       next();
+//     }
+//   });
+// }));
 
-router.get(`/:id(\\d+)/${sm.session.agenda}`, ar((render, req, res, next) => {
-  const sesData = getData(req.params.id);
-  if (sesData) {
-    render('seja/dnevni-red', {
-      activeMenu: 'session',
-      pageTitle: `${i18n('titles.session')} - ${i18n('titles.agenda')}`,
-      activeTab: 'dnevni-red',
-      ...sesData,
-    });
-  } else {
-    next();
-  }
-}));
+// router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.agenda}`], ar((render, req, res, next) => {
+//   const sesData = getData(req.params.id);
+//   if (sesData) {
+//     render('seja/dnevni-red', {
+//       activeMenu: 'session',
+//       pageTitle: `${i18n('titles.session')} - ${i18n('titles.agenda')}`,
+//       activeTab: 'dnevni-red',
+//       ...sesData,
+//     });
+//   } else {
+//     next();
+//   }
+// }));
 
 router.get(['/:id(\\d+)', `/:id(\\d+)/${sm.session.transcript}`], ar((render, req, res, next) => {
   const sesData = getNewData(req.params.id).then((sesData) => {

@@ -7,22 +7,22 @@
     <%- await fetchCard('/person/basic-information/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/person/recent-activity/', mp.id) %>
+    <%- await fetchCard('/person/tfidf/', mp.id) %>
   </div>
-  <!-- <div class="col-md-12">
-    <%# await fetchCard('/person/monthly-vote-attendance/', mp.id) %>
-  </div> -->
-  <div class="col-md-6">
-    <%- await fetchCard('/person/questions/', mp.id) %>
+  <div class="col-md-12">
+    <%- await fetchCard('/person/speeches/', mp.id, { customUrl: `{isci}/search/speeches?people=${mp.id}`, state: { person: mp.id } }) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/person/number-of-questions/', mp.id) %>
+    <%- await fetchCard('/person/number-of-spoken-words/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/person/vote-attendance/', mp.id) %>
+    <%- await fetchCard('/person/average-number-of-speeches-per-session/', mp.id) %>
   </div>
   <div class="col-md-6">
-    <%- await fetchCard('/person/memberships/', mp.id) %>
+    <%- await fetchCard('/person/vocabulary-size/', mp.id) %>
+  </div>
+  <div class="col-md-6">
+    <%- await fetchCard('/person/style-scores/', mp.id) %>
   </div>
 </div>
 

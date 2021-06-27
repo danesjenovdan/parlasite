@@ -37,7 +37,7 @@ async function fetchCard(cardPath, id, params = {}) {
 
   params.template = 'site';
 
-  params.locale = 'sl-obcine';
+  params.locale = 'en';
   // TODO forward locale from page
   // if (this.req.query.lang) {
   //   params.lang = this.req.query.lang;
